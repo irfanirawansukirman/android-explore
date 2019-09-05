@@ -1,0 +1,159 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Start Toolbar Style Section -->
+    <style name="ToolbarDefault" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+    </style>
+
+    <style name="ToolbarLight" parent="ToolbarDefault">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <style name="ToolbarAccent" parent="ToolbarLight">
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+    </style>
+    <!-- End Toolbar Style Section -->
+
+    <!-- Start View Style Section -->
+    <style name="BaseView">
+        <item name="android:background">@color/greyUltraLight</item>
+    </style>
+
+    <style name="ViewHorizontal" parent="BaseView">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ViewHorizontal.6dp" parent="ViewHorizontal">
+        <item name="android:layout_height">@dimen/dimens_6dp</item>
+    </style>
+    <!-- End View Style Section -->
+
+    <!-- Start LinearLayout Style Section -->
+    <style name="BaseLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="LinearLayoutVertical" parent="BaseLinearLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal" parent="BaseLinearLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LinearLayoutVertical.Wrap" parent="LinearLayoutVertical">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LinearLayoutVertical.Wrap.Wrap" parent="LinearLayoutVertical.Wrap">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal.Wrap" parent="LinearLayoutHorizontal">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal.Wrap.Wrap" parent="LinearLayoutHorizontal.Wrap">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- End LinearLayout Style Section -->
+
+    <!-- Start LinearLayout Style Section -->
+    <style name="BaseRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="RelativeLayout" parent="BaseRelativeLayout">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="RelativeLayout.Wrap" parent="RelativeLayout">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- End LinearLayout Style Section -->
+
+    <!-- Start FrameLayout Style Section -->
+    <style name="BaseFrameLayout">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="FrameLayout" parent="BaseFrameLayout">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="FrameLayout.Wrap" parent="FrameLayout">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="FrameLayout.Wrap.Wrap" parent="FrameLayout.Wrap">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- End FrameLayout Style Section -->
+
+    <!-- Start NestedScrollView Style Section -->
+    <style name="BaseNestedScrollView">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="NestedScrollView" parent="BaseNestedScrollView">
+        <item name="android:fillViewport">false</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="NestedScrollView.Wrap" parent="NestedScrollView">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- End NestedScrollView Style Section -->
+
+    <!-- Start MaterialCardView Style Section -->
+    <style name="BaseMaterialCardView">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MaterialCardView" parent="BaseMaterialCardView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="cardElevation">@dimen/dimens_8dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="MaterialCardView.Wrap" parent="MaterialCardView">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MaterialCardView.Wrap.Wrap" parent="MaterialCardView.Wrap">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!-- End MaterialCardView Style Section -->
+
+    <!-- Start BottomSheet Style Section -->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_top_round_white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- End BottomSheet Style Section -->
+</resources>

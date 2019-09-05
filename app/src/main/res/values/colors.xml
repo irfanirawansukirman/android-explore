@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">@android:color/white</color>
+
+    <color name="black">@android:color/black</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="greyLight">#a4a4a4</color>
+    <color name="greyDark">#494949</color>
+    <color name="greyVeryLight">#cfcfcf</color>
+    <color name="greyUltraLight">#efefef</color>
+
+    <!--    <color name="redTokDis">#DB3C2A</color>-->
+    <color name="redTokDis">#AD0012</color>
+
+    <color name="pink">#EACAC8</color>
+    <color name="pinkMedium">#FFA0A4</color>
+    <color name="pinkDark">#EA807D</color>
+</resources>

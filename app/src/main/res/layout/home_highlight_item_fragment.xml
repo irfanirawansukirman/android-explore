@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.florent37.shapeofview.shapes.RoundRectView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/round_highlight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:elevation="2dp"
+    app:shape_roundRect_borderColor="@android:color/transparent"
+    app:shape_roundRect_borderWidth="0dp"
+    app:shape_roundRect_bottomLeftRadius="@dimen/dimens_16dp"
+    app:shape_roundRect_bottomRightRadius="@dimen/dimens_16dp"
+    app:shape_roundRect_topLeftRadius="@dimen/dimens_16dp"
+    app:shape_roundRect_topRightRadius="@dimen/dimens_16dp">
+
+    <ImageView
+        android:id="@+id/img_homeHighlightItem"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+
+</com.github.florent37.shapeofview.shapes.RoundRectView>
